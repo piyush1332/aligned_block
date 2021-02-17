@@ -1,0 +1,23 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.image_holder {
+    position: relative;
+}
+
+.image_holder img {
+    height: 100%;
+    width: 100%;
+}
+
+.aligned_block {
+    height: 16%;
+    width: 10%;
+    background: black;
+    position: absolute;
+    left: 50%;
+    top: 29%;
+    transform: rotate(2deg);
+}
